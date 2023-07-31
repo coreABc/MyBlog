@@ -924,9 +924,13 @@ inject:
   head:
     # - <link rel="stylesheet" href="/css/background.css">
     - <link rel="stylesheet" href="/css/MyStyle.css">
+    - <link rel="stylesheet" href="/css/MyStyle.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    - <script src="/js/jquery-3.6.1.min.js"></script>
+    - <script src="/js/foot.js"></script>
+    - <script src="/js/nav.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
