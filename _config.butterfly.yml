@@ -63,31 +63,31 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: img/index_img.png
+index_img: 
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: img/default_top_img.jpg
+default_top_img: 
 
 # The banner image of archive page
-archive_img: img/archive_img.png
+archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: img/tag_img.jpg
+tag_img:
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: img/tag_per_img.jpg
+tag_per_img: 
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: img/category_img.jpg
+category_img: 
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: img/category_per_img.jpg
+category_per_img: 
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -748,8 +748,8 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: 'PMZDCST'
+  code-font-family: 'PMZDCST'
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -923,14 +923,18 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/css/background.css">
+    # 背景
     - <link rel="stylesheet" href="/css/MyStyle.css">
-    - <link rel="stylesheet" href="/css/MyStyle.css">
+    # 字体
+    - <link rel="stylesheet" href="/css/fontsetting.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
     - <script src="/js/jquery-3.6.1.min.js"></script>
     - <script src="/js/foot.js"></script>
     - <script src="/js/nav.js"></script>
+    - <script src="/js/pace.min.js" async></script>
+    
 
 # CDN
 # Don't modify the following settings unless you know how they work
